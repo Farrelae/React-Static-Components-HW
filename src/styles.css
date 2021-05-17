@@ -1,0 +1,31 @@
+:root {
+  --dark-cerulean: #124e78;
+  --maastricht-blue: #0b132b;
+  --yankees-blue: #1C2541;
+  --sea-serpent: #5bc0be;
+  --aquamarine: #6fffe9;
+  --react: #00d8ff;
+}
+
+html {
+  background: whitesmoke;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+.Container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height:80px;
+  align-items: flex-start;
+}
+
+
+.Nav div{
+    background-color:lightgrey;
+
+}
